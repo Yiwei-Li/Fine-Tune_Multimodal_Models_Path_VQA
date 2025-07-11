@@ -9,7 +9,7 @@ This repository presents a series of **multimodal vision-language experiments** 
 ## Dataset
 
 - Dataset used: [flaviagiammarino/path-vqa](https://huggingface.co/datasets/flaviagiammarino/path-vqa)
-- Originally contains ~20,000 training image-question-answer data  spanning medical diagrams, pathology, fetal development, and anatomy. This project randomly selected 4,000 training samples due to hardware limitations.
+- Originally contains ~20,000 training image-question-answer data  spanning medical diagrams, pathology, fetal development, and anatomy. This project randomly selected 8,000 training samples due to hardware limitations.
 - Cleaned and preprocessed into a VQA-compatible format for model fine-tuning.
 
 
@@ -51,7 +51,7 @@ This repository presents a series of **multimodal vision-language experiments** 
 
 - Image Encoder: BioMedCLIP
 - Text Decoder: Mistral 7B
-- Fine-tuned using LoRA as an **image captioning task** (not Q&A) for 3 epochs.
+- Fine-tuned using LoRA as an **image captioning task** (not Q&A) for 3 epochs on 4,000 samples.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Challenges Encountered**:
 - Very low [METEOR](https://medium.com/on-being-ai/what-is-meteor-metric-for-evaluation-of-translation-with-explicit-ordering-45b49ac5ec70) scores (0.02).
@@ -78,7 +78,7 @@ This repository presents a series of **multimodal vision-language experiments** 
 
 ### 1. Hardware Constraints
 - All experiments were conducted on a laptop with a single RTX 5080 Mobile GPU (16 GB VRAM) and 32 GB system RAM.
-- These constraints limited fine-tuning of larger models (e.g., BLIP-2, LLaVA) and capped the training data at 4,000 images.
+- These constraints limited fine-tuning of larger models (e.g., BLIP-2, LLaVA) and capped the training data at 8,000 images.
 
 
 ### 2. Missing Vision-Language Adapter
