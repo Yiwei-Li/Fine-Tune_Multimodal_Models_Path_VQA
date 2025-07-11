@@ -45,7 +45,6 @@ This repository presents a series of **multimodal vision-language experiments** 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Sample Output:**  
 <img src=".\misc\fine_tune_inference_1.png" alt="BLIP Fine-Tuned" width="600"/>
 
----
 
 ### 3. **Custom BioMedCLIP + Mistral (Captioning)**
 
