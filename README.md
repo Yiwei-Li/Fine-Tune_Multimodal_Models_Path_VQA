@@ -60,7 +60,7 @@ This repository presents a series of **multimodal vision-language experiments** 
   - Limited dataset size for large decoder models.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Sample Output:**  
-<img src=".\misc\fine_tune_inference_2.png" alt="BLIP Fine-Tuned" width="600"/>
+<img src=".\misc\fine_tune_inference_2.png" alt="Custom Fine-Tuned" width="600"/>
 
 
 
